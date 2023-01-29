@@ -1,7 +1,7 @@
 import requests
 import APIKey
 
-headers = {'apikey': APIKey.key}
+headers = {'apikey': APIKey.key} # For development purposes, add your personal key in the corresponding file
 base_url = "https://api.nexusmods.com"
 tracked_mods_url = base_url + "/v1/user/tracked_mods.json"
 endorsements_url = base_url + "/v1/user/endorsements.json"
